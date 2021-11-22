@@ -766,6 +766,7 @@ func TestManager_AssertFileTreeEqual(t *testing.T) {
 - workflows:
     - golangci-lint.yaml
     - test.yaml
+- dependabot.yml
 `
 
 			m := newManager(t, tc.mockFs)

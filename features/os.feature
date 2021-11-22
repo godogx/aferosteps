@@ -62,6 +62,7 @@ Feature: OS FS
             - workflows:
                 - golangci-lint.yaml
                 - test.yaml
+            - dependabot.yml
         """
 
     Scenario: .github contains with cwd
@@ -74,6 +75,7 @@ Feature: OS FS
             - workflows:
                 - golangci-lint.yaml
                 - test.yaml
+            - dependabot.yml
         """
 
     Scenario: .github contains in path
@@ -85,6 +87,7 @@ Feature: OS FS
             - workflows:
                 - golangci-lint.yaml
                 - test.yaml
+            - dependabot.yml
         """
 
     Scenario: .github contains in path
@@ -96,6 +99,7 @@ Feature: OS FS
             - workflows:
                 - golangci-lint.yaml
                 - test.yaml
+            - dependabot.yml
         """
 
     Scenario: .github equal
@@ -107,6 +111,7 @@ Feature: OS FS
         - workflows:
             - golangci-lint.yaml
             - test.yaml
+        - dependabot.yml
         """
 
     Scenario: .github equal with cwd
@@ -118,6 +123,7 @@ Feature: OS FS
         - workflows:
             - golangci-lint.yaml
             - test.yaml
+        - dependabot.yml
         """
 
     Scenario: .github equal in path
@@ -126,4 +132,5 @@ Feature: OS FS
         - workflows:
             - golangci-lint.yaml
             - test.yaml
+        - dependabot.yml
         """
