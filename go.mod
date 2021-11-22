@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/cucumber/godog v0.12.2
 	github.com/godogx/expandvars v0.1.1
-	github.com/nhatthm/aferoassert v0.1.5
+	github.com/nhatthm/aferoassert v0.1.6
 	github.com/nhatthm/aferomock v0.3.0
 	github.com/spf13/afero v1.6.0
 	github.com/stretchr/testify v1.7.0
