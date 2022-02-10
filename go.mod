@@ -7,7 +7,7 @@ require (
 	github.com/godogx/expandvars v0.1.1
 	github.com/nhatthm/aferoassert v0.1.6
 	github.com/nhatthm/aferomock v0.3.1
-	github.com/spf13/afero v1.8.0
+	github.com/spf13/afero v1.8.1
 	github.com/stretchr/testify v1.7.0
 )
 
