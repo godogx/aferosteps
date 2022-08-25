@@ -10,7 +10,7 @@ Interacting with multiple filesystems in [`cucumber/godog`](https://github.com/c
 
 ## Prerequisites
 
-- `Go >= 1.16`
+- `Go >= 1.17`
 
 ## Install
 
@@ -102,7 +102,7 @@ Feature: OS FS
         Then there should be only these files:
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         """
 
@@ -113,7 +113,7 @@ Feature: OS FS
         Then there should be only these files:
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         """
 ```
@@ -134,7 +134,7 @@ Feature: OS FS
         Then there should be only these files:
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         """
 ```
@@ -421,7 +421,7 @@ For examples:
         Then there should be only these files in "$TEST_DIR/../../.github":
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         """
 ```
