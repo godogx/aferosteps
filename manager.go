@@ -9,8 +9,8 @@ import (
 
 	"github.com/cucumber/godog"
 	"github.com/godogx/expandvars"
-	"github.com/nhatthm/aferoassert"
 	"github.com/spf13/afero"
+	"go.nhat.io/aferoassert"
 )
 
 const defaultFs = "_default"

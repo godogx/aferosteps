@@ -60,7 +60,7 @@ Feature: OS FS
         """
         - .github:
             - workflows:
-                - golangci-lint.yaml
+                - lint.yaml
                 - test.yaml
             - dependabot.yml
         """
@@ -73,7 +73,7 @@ Feature: OS FS
         """
         - .github:
             - workflows:
-                - golangci-lint.yaml
+                - lint.yaml
                 - test.yaml
             - dependabot.yml
         """
@@ -85,7 +85,7 @@ Feature: OS FS
         """
         - .github:
             - workflows:
-                - golangci-lint.yaml
+                - lint.yaml
                 - test.yaml
             - dependabot.yml
         """
@@ -97,7 +97,7 @@ Feature: OS FS
         """
         - .github:
             - workflows:
-                - golangci-lint.yaml
+                - lint.yaml
                 - test.yaml
             - dependabot.yml
         """
@@ -109,7 +109,7 @@ Feature: OS FS
         Then there should be only these files:
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         - dependabot.yml
         """
@@ -121,7 +121,7 @@ Feature: OS FS
         Then there should be only these files:
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         - dependabot.yml
         """
@@ -130,7 +130,7 @@ Feature: OS FS
         Then there should be only these files in "$TEST_DIR/../../.github":
         """
         - workflows:
-            - golangci-lint.yaml
+            - lint.yaml
             - test.yaml
         - dependabot.yml
         """

@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/cucumber/godog"
-	"github.com/nhatthm/aferomock"
 	"github.com/spf13/afero"
 	"github.com/spf13/afero/mem"
 	"github.com/stretchr/testify/assert"
+	"go.nhat.io/aferomock"
 )
 
 func newManager(t *testing.T, mockFs aferomock.FsMocker) *Manager {
@@ -764,7 +764,7 @@ func TestManager_AssertFileTreeEqual(t *testing.T) {
 
 			expected := `
 - workflows:
-    - golangci-lint.yaml
+    - lint.yaml
     - test.yaml
 - dependabot.yml
 `
@@ -810,7 +810,7 @@ func TestManager_AssertFileTreeContains(t *testing.T) {
 
 			expected := `
 - workflows:
-    - golangci-lint.yaml
+    - lint.yaml
     - test.yaml
 `
 
