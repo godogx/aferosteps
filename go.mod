@@ -6,7 +6,7 @@ require (
 	github.com/cucumber/godog v0.12.6
 	github.com/godogx/expandvars v0.1.1
 	github.com/spf13/afero v1.9.5
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	go.nhat.io/aferoassert v0.2.0
 	go.nhat.io/aferomock v0.4.0
 )
