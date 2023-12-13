@@ -3,7 +3,7 @@ module github.com/godogx/aferosteps
 go 1.17
 
 require (
-	github.com/cucumber/godog v0.12.6
+	github.com/cucumber/godog v0.13.0
 	github.com/godogx/expandvars v0.1.1
 	github.com/spf13/afero v1.9.5
 	github.com/stretchr/testify v1.8.4
@@ -12,8 +12,8 @@ require (
 )
 
 require (
-	github.com/cucumber/gherkin-go/v19 v19.0.3 // indirect
-	github.com/cucumber/messages-go/v16 v16.0.1 // indirect
+	github.com/cucumber/gherkin/go/v26 v26.2.0 // indirect
+	github.com/cucumber/messages/go/v21 v21.0.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
