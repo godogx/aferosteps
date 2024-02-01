@@ -3,7 +3,7 @@ module github.com/godogx/aferosteps
 go 1.17
 
 require (
-	github.com/cucumber/godog v0.13.0
+	github.com/cucumber/godog v0.14.0
 	github.com/godogx/expandvars v0.1.1
 	github.com/spf13/afero v1.10.0
 	github.com/stretchr/testify v1.8.4
